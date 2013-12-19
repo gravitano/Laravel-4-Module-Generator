@@ -1,0 +1,5 @@
+<?php namespace {{namespaceName}}
+
+interface {{Module}}Interface{
+    //Add contract methods
+}

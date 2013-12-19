@@ -1,0 +1,5 @@
+<?php namespace {{namespaceName}}
+
+class {{Module}}Helper{
+    //Add helper methods
+}

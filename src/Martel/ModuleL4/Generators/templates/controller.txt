@@ -1,0 +1,27 @@
+<?php namespace {{namespaceName}}
+
+class {{Module}}Controller extends BaseController {
+
+	/**
+	 * {{Module}} Repository
+	 *
+	 * @var {{module}}
+	 */
+	protected ${{module}};
+
+	public function __construct({{Module}}Repository ${{module}})
+	{
+		$this->{{module}} = ${{module}};
+	}
+
+	/**
+	 * Display a listing of the resource.
+	 *
+	 * @return Response
+	 */
+	public function index()
+	{
+
+	}
+
+}

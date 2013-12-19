@@ -1,0 +1,7 @@
+<?php namespace {{namespaceName}}
+
+class {{Module}} extends Eloquent {
+	protected $guarded = array();
+
+	public static $rules = array();
+}

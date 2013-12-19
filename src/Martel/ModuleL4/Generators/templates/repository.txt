@@ -1,0 +1,5 @@
+<?php namespace {{namespaceName}}
+
+class {{Module}}Repository implements {{Module}}Interface{
+    //Implement contract methods
+}
