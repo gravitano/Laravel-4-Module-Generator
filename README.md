@@ -37,13 +37,13 @@ This can be configured to use a different folder structure, as well as using dif
 files from.
 
 All files are namespaced according to psr-0, allowing all files for each module to be autoloaded
-with just a single inclusion of:
+with just a single inclusion of the following snippet to the laravel applications composer.json file:
 
          "psr-0" : {
             "Modules" : "app/"
          }
 
- to the laravel applications composer.json file.
+
 
 
  This is a work in progress and more features are going to be added to help bolster the generation of files in modules.
