@@ -4,10 +4,10 @@ This Laravel 4 package provides a way to quickly generate a module space to stor
 
 ## Usage
 
-Often in larger projects, or projects which contain code or resources which are completely unrelated, you
+Often in larger projects, or projects which contain code or resources which are loosely related, you
 may want to separate it out to make it more manageable.
 
-This basically is nothing more than an organization tool, and provides little else in the way of development, or
+This is basically nothing more than an organization tool, and provides little else in the way of development, or
 development standards. It is simply a way to generate code containers, for the code that doesn't belong in a package,
 yet is too specific to leave in the standard folder structure.
 
